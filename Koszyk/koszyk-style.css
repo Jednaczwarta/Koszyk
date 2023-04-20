@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+html{
+    font-family: 'Open Sans', sans-serif;;
+    background-color: rgb(235, 235, 235);
+}
+.glowny{
+    margin-left: 15vw;
+    width: 830px;
+    height: 400px;
+}
+.boczny{
+    margin-right: 30vw;
+    width: 400px;
+    height: 450px;
+ }
+ .srodkowanie{
+    display: inline-flex;
+    justify-content: center;
+ }
+ .napis-u-gory{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    width: 30vw;
+ }
+ .napis-u-gory p{
+    font-size: larger;
+    padding-right: 10%;
+    border-bottom: 5px solid rgba(128, 128, 128, 0.308);
+ }
+ .koszyk{
+    color: orange;
+    border-bottom: 5px solid orange !important;
+ }
+ .mniejszy-glowny{
+    margin-bottom: 2%;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .usun, .caly{
+    font-size: larger;
+ }
+.wiekszy-glowny-wyzej{
+    font-size: larger;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kapec{
+    width: 150px;
+    height: 110px;
+}
+.kapec-tekst{
+    width: 185px;
+}
+.przedmiot{
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 10vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.wiekszy-glowny-srodek{
+    border-bottom: 1px solid rgb(207, 207, 207);
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30vw;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tyl, .przod{
+    background-color: white;
+    width: 40px;
+    height: 46px;
+}
+.ilosc{
+    text-align: center;
+    width: 65px;
+    height: 40px;
+}
+.przyciski-ilosc{
+    display: flex !important;
+    justify-content: center !important;
+}
+.tyl, .przyciski-ilosc, .przod{
+    cursor: pointer;
+    border: none;
+    font-size: larger;
+    align-self: center;
+}
+.cena{
+    font-weight: bolder;
+    font-size: x-large;
+    align-self: center;
+}
+.wiekszy-glowny-nizej{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: 1%;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30vw;
+}
+.koszt{
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 1%;
+    margin-top: 17%;
+    background-color: white;
+    width: 400px;
+    height: 310px;
+}
+.wartosc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dostawa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+.razem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.razem-cena{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.razem-tekst{
+    align-self: flex-end;
+}
+.przyciski{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.platnosc{
+    background-color: orange;
+    color: white;
+}
+.platnosc, .kontynuuj{
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    width: 300px;
+}
+.bezpieczenstwo{
+    padding-right: 3%;
+    padding-left: 5%;
+    background-color: white;
+}
+.bezp-tekst1{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.bezp-tekst2{
+    font-size: larger;
+}
+.bezpieczenstwo i{
+    font-size: 150px;
+}
+@media (max-width: 800px) {
+    .przyciski-ilosc{
+        margin-left: 5%;
+    }
+    .cena{
+        margin-left: 5%;
+    }
+    .wiekszy-glowny-srodek{
+        display: flex;
+        justify-content: center;
+    }
+    .bezpieczenstwo{
+        margin-top: 10%;
+    }
+    .boczny{
+        margin-top: 15%;
+        margin-left: 20%;
+    }
+    .srodkowanie{
+        display: block;
+    }
+    .glowny{
+        width: 500px;
+    }
+    .napis-u-gory, .mniejszy-glowny, .wiekszy-glowny-wyzej, .wiekszy-glowny-srodek, .wiekszy-glowny-nizej{
+        width: 500px;
+    }
+}
